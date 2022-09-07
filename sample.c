@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-intmaina(void)
+int mina(void)
     {
         printf("Hello World!");
         return 0;
     }
-
-    
