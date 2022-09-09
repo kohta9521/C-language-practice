@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int mian(void) {
-    printf("%f", 3.14 * 3 * 3);
+int main(void) {
+    printf("%d", (int) 3.14);
 
     return 0;
 }
