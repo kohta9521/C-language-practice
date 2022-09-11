@@ -1,7 +1,8 @@
 #include <stdio.h>
+int hello(void);
 
 int main(void) {
-
+    hello();
     return 0;
 }
 
