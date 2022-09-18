@@ -16,6 +16,10 @@ int main(void) {
     printf("%d\n", num[3]);
     printf("%d\n", num[4]);
 
+    //配列の要素数を省略
+    int coc [] = {12, 13, 14};
+    printf("%d\n", coc[1]);
+
 
 
     return 0;
