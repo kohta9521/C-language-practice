@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 int main(void) {
-    char str [] = "256";
-    int suuti = atoi (str);
-    printf("%d", suuti);
+    char str [] = "2.56";
+    double suuti = atoi (str);
+    printf("%f", suuti);
 
     return 0;
 }
