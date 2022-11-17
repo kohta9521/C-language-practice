@@ -22,7 +22,6 @@ int main(void) {
         case 1:
         case 2: puts("冬です。"); break;
         default: puts("ありませんよ！\a"); break;
-
     }
 
     return 0;
