@@ -2,10 +2,4 @@
 
 int main(void) {
     int no;
-
-    printf("正の整数 : "); scanf("%d", &no);
-
-    if (no >= 1) {
-
-    }
 }
