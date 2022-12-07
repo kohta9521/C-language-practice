@@ -1,36 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   51.c                                               :+:      :+:    :+:   */
+/*   56.c                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kkohta <kkohta@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/07 18:03:54 by kkohta            #+#    #+#             */
-/*   Updated: 2022/12/07 18:19:39 by kkohta           ###   ########.fr       */
+/*   Created: 2022/12/07 18:31:47 by kkohta            #+#    #+#             */
+/*   Updated: 2022/12/07 18:33:56 by kkohta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 int	main(void)
 {
-	printf("あなたの運勢を占います。\n");
-	puts("↓結果↓");
-	srand((unsigned)time(NULL));
-	int fortune = rand() % 4 + 1;
-
-	if (fortune == 1)
+	for (int i = 0; i < 100; i ++)
 	{
-		printf( "大吉\n");
-	} else if (fortune == 2) {
-		printf(" 中吉\n");
-	} else if (fortune == 3) {
-		printf(" 吉\n");
-	} else {
-		printf(" 凶\n");
+		printf("現在%d周目です。\n", i + 1);
 	}
-	puts("今日も一日頑張っていきましょう!!!!");
 	return (0);
 }
