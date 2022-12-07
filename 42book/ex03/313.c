@@ -6,15 +6,17 @@
 /*   By: kkohta <kkohta@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/07 13:16:13 by kkohta            #+#    #+#             */
-/*   Updated: 2022/12/07 13:19:19 by kkohta           ###   ########.fr       */
+/*   Updated: 2022/12/07 13:23:06 by kkohta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int	main(void)
 {
+	srand((unsigned)time(NULL));
 	int r = rand() % 100;
 	printf("あなたは多分、%d歳ですね。\n", r);
 	return (0);
