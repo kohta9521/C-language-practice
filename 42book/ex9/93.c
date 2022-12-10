@@ -6,7 +6,7 @@
 /*   By: kkohta <kkohta@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/10 22:52:45 by kkohta            #+#    #+#             */
-/*   Updated: 2022/12/10 23:01:13 by kkohta           ###   ########.fr       */
+/*   Updated: 2022/12/10 23:05:57 by kkohta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	main(void)
 	int a = 70;
 	printf("変数aには70が入っています。\n");
 
-	void* addrA = (void*)&a;
+	int* addrA = (void*)&a;
 	printf("変数aのアドレス :%p\n", addrA);
 	printf("%p番地に格納されている情報 :%d\n", addrA, *addrA);
 
