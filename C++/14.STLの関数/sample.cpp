@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: kkohta <kkohta@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/20 15:11:47 by kkohta            #+#    #+#             */
-/*   Updated: 2023/01/20 15:12:40 by kkohta           ###   ########.fr       */
+/*   Created: 2023/01/21 14:03:12 by kkohta            #+#    #+#             */
+/*   Updated: 2023/01/21 14:05:36 by kkohta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,7 @@
 using namespace std;
 
 int	main() {
-	cout << "Hello" << endl;
+	int a = 10, b = 5;
+	int answer = min(a, b);
+	cout << answer << endl;
 }
