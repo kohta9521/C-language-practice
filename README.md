@@ -1,7 +1,7 @@
 # C-language-practice
 
-# 実行 C言語
+# run c
 ### gcc test.c -o test && ./test
 
-# 実行 C++言語
+# run c++
 ### g++ -o test test.cpp && ./test
